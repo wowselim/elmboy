@@ -33,3 +33,11 @@ message =
   else
     "I don't know you"
 
+name = "Selim"
+
+message =
+  case name of
+    "John" -> "Yo John!"
+    "Selim" -> "Whassup Selim?"
+    _ -> "Who are you?"
+
